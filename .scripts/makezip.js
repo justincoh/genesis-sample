@@ -39,9 +39,9 @@ const excludes = [
 
 // Creates a file to stream archive data to.
 // Uses the name in package.json, such as 'child-theme.1.1.0.zip'.
-const slug = process.env.THEME_SLUG || process.env.npm_package_theme_textdomain;
-const version = process.env.THEME_VERSION || process.env.npm_package_theme_version;
-const fileName = process.env.VERSION_ARTIFACT_FILE || `${slug}.${version}.zip`;
+// const slug = process.env.THEME_SLUG || process.env.npm_package_theme_textdomain;
+// const version = process.env.THEME_VERSION || process.env.npm_package_theme_version;
+const fileName = "genesis_sample_justin.zip";
 
 const output = fs.createWriteStream(fileName);
 
