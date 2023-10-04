@@ -182,6 +182,10 @@ a {
 	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
+code a {
+	color: #7851a9;
+}
+
 sup a {
 	color: #e2e2e2;
 	text-decoration: none;
@@ -248,7 +252,6 @@ h4,
 h5,
 h6 {
 	font-family: "Source Sans Pro", sans-serif;
-	font-weight: 400;
 	line-height: 1.2;
 	margin: 20px 0;
 }
@@ -514,6 +517,10 @@ td {
 
 tr {
 	border-top: 1px solid #eee;
+}
+
+.is-style-stripes tbody tr:nth-child(odd) {
+	color: #282c35;
 }
 
 th {
