@@ -168,8 +168,9 @@
 
 .site-container .wp-block-pullquote,
 .site-container .wp-block-quote {
-	border: none;
-	margin: 24px 24px 36px;
+	margin: 24px 0;
+	padding: 0 24px;
+	border-left: 4px solid #7851a9;
 }
 
 .wp-block-pullquote.alignleft {
