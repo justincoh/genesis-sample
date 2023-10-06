@@ -184,7 +184,7 @@
 .site-container .wp-block-pullquote p,
 .site-container .wp-block-quote p {
 	font-family: "Source Sans Pro", serif;
-	font-size: 21px;
+	font-size: 1em;
 	font-style: italic;
 	line-height: 1.8;
 	margin-bottom: 42px;
