@@ -339,9 +339,9 @@ hr.wp-block-separator {
 	max-width: 100px;
 }
 
-.wp-block-separator.is-style-dots {
+/* .wp-block-separator.is-style-dots {
 	color: #333;
-}
+} */
 
 .wp-block-audio audio {
 	display: inline-block;
