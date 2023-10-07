@@ -21,7 +21,8 @@ return [
 		'breadcrumb_archive'        => 0,
 		'breadcrumb_404'            => 0,
 		'breadcrumb_attachment'     => 0,
-		'content_archive'           => 'full',
+		// 'content_archive'           => 'full',
+		'content_archive'           => 'excerpts',
 		'content_archive_limit'     => 0,
 		'content_archive_thumbnail' => 0,
 		'entry_meta_after_content'  => '[post_categories] [post_tags]',
@@ -32,5 +33,5 @@ return [
 		'site_layout'               => 'full-width-content',
 		// 'site_layout'               => 'content-sidebar',
 	],
-	'posts_per_page'       => 6,
+	'posts_per_page'       => 10,
 ];
