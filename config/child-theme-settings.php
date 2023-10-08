@@ -28,7 +28,7 @@ return [
 		// 'entry_meta_after_content'  => '[post_categories] [post_tags]',
 		'entry_meta_after_content'  => '[post_categories]',
 		// 'entry_meta_before_content' => '[post_date] ' . __( 'by', 'genesis-sample' ) . ' [post_author_posts_link] [post_comments] [post_edit]',
-		'entry_meta_before_content' => '[post_date format="M j, Y" label="Posted — "][post_modified_date format="M j, Y" label="Updated "] [post_edit]',
+		'entry_meta_before_content' => '[post_date format="M j, Y" label="Posted " after=" — "][post_modified_date format="M j, Y" label="Updated "] [post_edit]',
 		'image_size'                => 'genesis-singular-images',
 		'image_alignment'           => 'aligncenter',
 		'posts_nav'                 => 'numeric',

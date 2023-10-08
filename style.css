@@ -198,7 +198,7 @@ a:hover {
 }
 
 p {
-	/* margin: 0 0 28px; */
+	margin: 0 0 28px;
 	padding: 0;
 }
 
@@ -1097,8 +1097,7 @@ figcaption,
 .genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .sub-menu .current-menu-item > a:focus,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
-	color: #0073e5;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .genesis-nav-menu .sub-menu,
@@ -1734,6 +1733,24 @@ p.entry-meta {
 .archive .entry-time {
 	/* only show updated at on archive pages */
 	display: none;
+}
+
+.archive .entry {
+	margin-bottom: 20px;
+}
+
+.archive .entry-footer .entry-meta {
+	padding-top: 10px;
+}
+
+/* custom callout I built */
+.callout {
+	/* this is the same #7851a9 purple, just faded */
+	background-color: rgba(120, 81, 169, .2);
+    border: 1px solid #e2e2e2;
+    margin: 0;
+    padding: 5px 20px;
+    border-radius: 4px;
 }
 
 /* Print Styles
