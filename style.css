@@ -1082,7 +1082,7 @@ figcaption,
 }
 
 .genesis-nav-menu a {
-	color: #333;
+	color: inherit;
 	display: block;
 	font-size: 15px;
 	font-weight: 400;
@@ -1161,7 +1161,7 @@ figcaption,
 .sub-menu-toggle {
 	background-color: transparent;
 	border-width: 0;
-	color: #333;
+	color: inherit;
 	display: block;
 	margin: 0 auto;
 	overflow: hidden;
@@ -1175,7 +1175,7 @@ figcaption,
 .sub-menu-toggle:hover {
 	background-color: transparent;
 	border-width: 0;
-	color: #0073e5;
+	text-decoration: underline;
 }
 
 .menu-toggle {
@@ -1728,6 +1728,12 @@ p.entry-meta {
 		width: calc(100% / 3);
 	}
 
+}
+
+/* Justin Overrides */
+.archive .entry-time {
+	/* only show updated at on archive pages */
+	display: none;
 }
 
 /* Print Styles
