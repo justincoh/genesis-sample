@@ -190,6 +190,11 @@
 	margin-bottom: 42px;
 }
 
+/* Justin override */
+.site-container .wp-block-quote p {
+	margin: 0;
+}
+
 .site-container .wp-block-pullquote p,
 .site-container .wp-block-quote.is-style-large p {
 	font-size: 32px;

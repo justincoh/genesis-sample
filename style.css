@@ -1744,13 +1744,14 @@ p.entry-meta {
 }
 
 /* custom callout I built */
-.callout {
+.site-container .wp-block-quote.callout {
 	/* this is the same #7851a9 purple, just faded */
 	background-color: rgba(120, 81, 169, .2);
+	text-align: justify;
+    border-radius: 4px;
     border: 1px solid #e2e2e2;
     margin: 0;
-    padding: 5px 20px;
-    border-radius: 4px;
+    padding: 15px 20px;
 }
 
 /* Print Styles
