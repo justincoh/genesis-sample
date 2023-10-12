@@ -426,10 +426,10 @@ input[type="submit"],
 .site-container div.wpforms-container-full .wpforms-form input[type="submit"],
 .site-container div.wpforms-container-full .wpforms-form button[type="submit"],
 .button {
-	background-color: #333;
+	background-color: #444;
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: #e2e2e2;
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 600;
@@ -454,9 +454,9 @@ input[type="submit"]:hover,
 .site-container div.wpforms-container-full .wpforms-form button[type="submit"]:hover,
 .button:focus,
 .button:hover {
-	background-color: #0073e5;
+	background-color: #e2e2e2;
 	border-width: 0;
-	color: #fff;
+	color: #282c35;
 }
 
 .entry-content .button:focus,
@@ -515,9 +515,9 @@ td {
 	padding: 0.5em;
 }
 
-tr {
+/* tr {
 	border-top: 1px solid #eee;
-}
+} */
 
 th {
 	font-weight: 600;
@@ -525,9 +525,16 @@ th {
 }
 
 /* direct overrides from I think the genesis framework itself  */
-.wp-block-table td, .wp-block-table th {
+.entry-content .wp-block-table td,
+.entry-content .wp-block-table th {
 	padding: 0.5em 1em;
 	text-align: center;
+	border-left: none;
+	border-right: none;
+}
+
+.entry-content .wp-block-table th {
+	border-top: none;
 }
 
 .is-style-stripes tbody tr:nth-child(odd) {
@@ -1731,8 +1738,13 @@ p.entry-meta {
 }
 
 /* Justin Overrides */
-.archive .entry-time {
-	/* only show updated at on archive pages */
+.archive .entry-header .entry-meta {
+	/* only show timestamps in the post itself */
+	display: none;
+}
+
+.search-results .entry-header .entry-meta {
+	/* only show timestamps in the post itself */
 	display: none;
 }
 

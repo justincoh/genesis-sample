@@ -32,8 +32,8 @@ return [
 		'image_size'                => 'genesis-singular-images',
 		'image_alignment'           => 'aligncenter',
 		'posts_nav'                 => 'numeric',
-		'site_layout'               => 'full-width-content',
-		// 'site_layout'               => 'content-sidebar',
+		// 'site_layout'               => 'full-width-content',
+		'site_layout'               => 'content-sidebar',
 	],
 	'posts_per_page'       => 10,
 ];
